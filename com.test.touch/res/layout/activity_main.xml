@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.com.test.touch.TouchRelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff0000" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/layout1"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <com.example.com.test.touch.TouchRelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:background="#00ff00" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/layout2"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.com.test.touch.TouchRelativeLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="100dp"
+                android:background="#0000ff" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/layout3"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+                <com.example.com.test.touch.TouchTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="100dp"
+                    android:background="#80ff0000"
+                    android:gravity="center_horizontal"
+                    android:text="@string/text1"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+                <com.example.com.test.touch.TouchTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="150dp"
+                    android:background="#8000ff00"
+                    android:gravity="center_horizontal"
+                    android:text="@string/text2"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+                <com.example.com.test.touch.TouchTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="200dp"
+                    android:background="#8000ffff"
+                    android:gravity="center_horizontal"
+                    android:text="@string/text3"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+            </com.example.com.test.touch.TouchRelativeLayout>
+        </com.example.com.test.touch.TouchRelativeLayout>
+    </com.example.com.test.touch.TouchRelativeLayout>
+
+</RelativeLayout>
